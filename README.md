@@ -67,6 +67,18 @@ int main()
     return 0;
 }
 
+
+output:
+
+seconds:       0-0:1
+minutes:       0-0:1, 15-15:1, 30-30:1, 45-45:1
+hours:         255-255:1
+day of month:  1-30:2
+month:         6-8:1, 12-2:1
+day of week:   1-5:1
+
+
+
 ```
 
 
