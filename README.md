@@ -31,7 +31,7 @@ int main()
         sched::Schedule schedule = sched::parse_cron("0 0,15,30,45 * 1-30/2 JUN-AUG,DEC-FEB MON-FRI");
         
         auto field_to_string = [] (const sched::Field& field) {
-        std::list<std::string> items;
+            std::list<std::string> items;
 
             for (auto& item: field) {
                 items.push_back((boost::format("%1%-%2%:%3%") 
